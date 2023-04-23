@@ -67,10 +67,10 @@ function getTransaction() {
 
     if(transaction.length) {
         transaction.forEach((item) => {
-            let type = "entrada";
+            let type = "Entrada";
 
             if (item.type === "2") {
-                tyoe = "saida";
+                type = "saida";
             }
 
             transactionHtml += `
